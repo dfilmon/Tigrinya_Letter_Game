@@ -1,0 +1,87 @@
+body{
+    font-family: arial;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .abilityContainer{
+    border: solid;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -300px;
+    left: 50%;
+    opacity: 0;
+  }
+  
+  .bodyContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97vw;
+    height: 97vh;
+    background-size: cover;
+    border-radius: 12px;
+    background-position: 50% 0;
+    border: solid;
+    
+  }
+  
+  .points{
+    position: absolute;
+    top: 30px;
+    left: 64px;
+    color: white;
+    font-size: 5vw;
+    font-weight: 900;
+    text-shadow: 0px 0px 30px rgba(0,0,0,0.64);
+  }
+  
+  .letterPost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .newLetterStyle{
+    padding-left: .9em;
+    padding-right: .9em;
+    padding-top: .6em;
+    padding-bottom: .6em;
+    border-radius: 11px;
+    background-color: white;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 0;
+    
+  }
+  
+  .newLetterStyle:hover{
+    opacity: 1 !important;
+      z-index: 1;
+        border: solid;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 2.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 2.5px 10px rgba(0, 0, 0, 0.06),
+    0 2.3px 7.9px rgba(0, 0, 0, 0.072),
+    0 1.8px 3.4px rgba(0, 0, 0, 0.086),
+    0 10px 8px rgba(0, 0, 0, 0.12)
+  }
+  
+  
+  .gameTimer{
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    font-size: 3em;
+    font-weight: 900;
+    color: orange;
+    text-align: center;
+    opacity: 0;
+  }
